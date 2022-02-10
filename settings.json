@@ -1,0 +1,68 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Default Dark+",
+    "telemetry.telemetryLevel": "off",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "'SF Mono', 'Roboto', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontWeight": "600",
+    "editor.fontSize": 15,
+    "editor.formatOnPaste": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+    "files.trimFinalNewlines": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#1bd5d2",
+        "terminalCursor.foreground": "#1bd5d2"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "files.hotExit": "onExit",
+    "[go]": {
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "golang.go"
+    },
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced"
+    },
+    "editor.renderWhitespace": "all",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 3,
+    "go.gopath": "${env:GOPATH}",
+    "go.toolsGopath": "",
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true, // enable for all themes
+        "[Default Dark+]": {
+            "enabled": true // enable for a particular theme
+        }
+    },
+    "editor.defaultFormatter": "golang.go",
+    "window.zoomLevel": 1,
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.mod": "go.mod"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "sonarlint.disableTelemetry": true,
+    "go.toolsManagement.autoUpdate": true,
+    "svelte.enable-ts-plugin": true,
+    "workbench.tree.indent": 15,
+}
